@@ -1,0 +1,23 @@
+:root {
+    --color-primary: #fb4603;
+    --color-secondary: rgba(245, 245, 245, 0.55);
+    --color-accent: #33A1DE;
+}
+:root {
+    /* Headings */
+    --font-heading: 'Montserrat', sans-serif;
+    --font-heading-weight: bold;
+
+    /* Subheadings */
+    --font-subheading: 'Montserrat', sans-serif;
+    --font-subheading-weight: normal;
+
+    /* Body text */
+    --font-body: 'Open Sans', sans-serif;
+    --font-body-weight: normal;
+
+    /* Buttons */
+    --font-button: 'Montserrat', sans-serif;
+    --font-button-weight: bold;
+}
+

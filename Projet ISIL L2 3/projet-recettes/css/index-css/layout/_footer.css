@@ -1,0 +1,89 @@
+.site-footer {
+    background-color: #ffce67;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    padding: 3rem 0 0 0;
+}
+.row{
+    padding: 0 3rem;
+}
+.site-footer h3 {
+    color: var(--color-primary);
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+}
+
+.site-footer p {
+    margin-bottom: 1.6rem;
+}
+
+.site-footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-footer ul li {
+    margin-bottom: 1.6rem;
+}
+
+.site-footer ul li i {
+    color: #666;
+    font-size: 1.6rem;
+    margin-right: 0.8rem;
+}
+
+.site-footer .social-list {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.site-footer .social-list li {
+    margin-right: 1.6rem;
+}
+
+.site-footer .social-list li:last-child {
+    margin-right: 0;
+}
+
+.site-footer .social-list a i {
+    color: #666;
+    font-size: 2rem;
+    transition: color 0.3s ease;
+}
+
+.site-footer .social-list a:hover i {
+    color: #e60023;
+}
+.col-md-2 {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.social{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cpr{
+    padding: 0  !important;
+
+}
+.site-footer .copy {
+    text-align: center;
+    margin-top: 3.2rem;
+    background-color: #33A1DE;
+    padding: 2rem 0;
+    width: 100%;
+    display: inline-block;
+}
+
+.site-footer .copy p {
+    color: #f7f7f7f7;
+    font-size: 1.4rem;
+    margin: 0;
+
+}

@@ -1,0 +1,116 @@
+.random-recipes{
+    min-height: 60vh;
+    padding: 3rem 5rem ;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5dd9c;
+}
+.random-recipes h2{
+    font-size: 8rem;
+    margin-bottom: 4rem;
+
+}
+.random-recipes span{
+    display: block;
+}
+.random-recipes span:first-child{
+    color : var(--color-primary)
+}
+.card__random-recipes--wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.card__random-recipes{
+    padding-top:3rem ;
+    justify-content: space-between;
+    background-color: #ffefc2;
+    border-color: #ffd947;
+    transition: all .25s ease-out;
+
+}
+.card__random-recipes .card--image{
+    max-height: 10rem;
+    width: 80%;
+}
+.card__random-recipes .card--header{
+    color: #f4bf58;
+    font-size: 1.8rem;
+
+
+}
+.card__random-recipes:hover{
+    transform: scale(1.05);
+    box-shadow: 0px .4rem 1rem rgba(0, 0, 0, 0.3);
+
+
+}
+
+.card__random-recipes--description{
+    padding: 1rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    font-size: 1.4rem;
+    justify-content: flex-end;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+
+.card__random-recipes--description h5{
+    display: inline-block;
+    color  :black;
+
+}
+.card__random-recipes--description span{
+    color  : var(--color-accent);
+}
+
+.card__random-recipes .go-to{
+    background-color: transparent;
+
+
+}
+.card__random-recipes .go-to__wrapper{
+    margin: 0;
+    background-color: #fee9ac;
+    border-radius:  0 0 1rem 1rem;
+    border-top: none;
+
+
+}
+.button__random {
+    background-color: var(--color-primary);
+    color: #fff;
+    font-size: 1.6rem;
+    padding: 1.8rem 4rem;
+    border: none;
+    border-radius: 5rem;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.button__random:before {
+    content: "";
+    position: absolute;
+    top: -120%;
+    left: -120%;
+    width: 350%;
+    height: 350%;
+    background-color: #fee9ac;
+    transform: rotate(45deg);
+    transition: all 1s ease-out;
+}
+
+.button__random:hover:before {
+    top: -90%;
+    left: -10%;
+}
+
+.button__random:hover {
+    transform: scale(1.1);
+}

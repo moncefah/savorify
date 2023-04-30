@@ -1,0 +1,55 @@
+.hero{
+    min-height: 100vh;
+    background-image: url("/assets/images/unsplash-image.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
+}
+.hero h1{
+    font-size: 4.4rem;
+    white-space: nowrap;
+}
+.hero h2{
+    margin-top: 2rem;
+    font-size: 2rem;
+    letter-spacing: .4rem;
+    white-space: nowrap;
+
+}
+.hero h1 span{
+    color: var(--color-primary);
+}
+.hero-headears{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.button-container {
+    margin-top: 10rem;
+}
+
+.button__hero {
+    font-size: 3rem;
+    color: white;
+    border: none;
+    border-left: solid 3px var(--color-primary);
+    border-right: solid 3px var(--color-primary);
+    padding: 2rem 6rem;
+    transition: all .2s ease-out;
+}
+
+.button__hero:hover {
+    padding: 1rem 5rem;
+    border: 2px solid var(--color-primary);
+}
+
+.button__hero:active {
+    transform: translateY(-0.5rem);
+}

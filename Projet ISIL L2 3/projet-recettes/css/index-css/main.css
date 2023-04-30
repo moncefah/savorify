@@ -1,0 +1,24 @@
+/* Import styles from abstracts directory */
+@import 'abstracts/_variables.css';
+@import 'abstracts/_animation.css';
+
+/* Import styles from base directory */
+@import 'base/_reset.css';
+@import 'base/_typography.css';
+@import 'base/_utilities.css';
+
+/* Import styles from components directory */
+@import 'components/_buttons.css';
+@import 'components/_grid.css';
+@import "components/_card.css";
+
+/* Import styles from layout directory */
+@import 'layout/_header.css';
+@import 'layout/_footer.css';
+@import 'layout/_navigation.css';
+@import 'layout/_hero.css';
+@import "layout/_about.css";
+@import "layout/_recipes.css";
+@import "layout/_random-recipes.css";
+
+
